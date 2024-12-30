@@ -85,6 +85,11 @@ export const Navbar = () => {
             >
               Batch Convert
             </Link>
+            <Link
+              to="/dashboard"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500"
+              >
+            </Link>
             {!user && (
               <>
                 <Link
