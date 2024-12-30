@@ -91,6 +91,12 @@ export const Navbar = () => {
             >
               Dashboard
             </Link>
+            <Link
+              to="/pricing"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-500"
+            >
+              Pricing
+            </Link>
             {!user && (
               <>
                 <Link
